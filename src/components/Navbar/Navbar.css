@@ -1,0 +1,49 @@
+.navbar {
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  font-size: x-large;
+  width: inherit;
+  padding: 1rem 0;
+}
+
+.home-icon a {
+  text-decoration: none;
+  color: #56b280;
+}
+
+.links ul {
+  display: flex;
+  gap: 5rem;
+  font-weight: 500;
+  font-size: large;
+  align-items: center;
+  & a {
+    text-decoration: none;
+    color: black;
+  }
+  & li {
+    list-style: none;
+    color: black;
+  }
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+  .profile-icon {
+    padding-left: 10rem;
+    padding-right: 1.5rem;
+    color: black;
+    flex-shrink: 0;
+  }
+
+  .cart-icon {
+    color: black;
+    flex-shrink: 0;
+  }
+}
